@@ -1,10 +1,11 @@
+"use client"
 import React from 'react';
 
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-gray-300">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
             <h3 className="text-white text-lg font-semibold">Company</h3>
@@ -43,7 +44,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="bg-white-200 text-black px-4 py-2 rounded-lg flex-grow outline-none"
+                className="bg-white text-black px-4 py-2 rounded-lg flex-grow outline-none"
               />
               <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
                 Subscribe
